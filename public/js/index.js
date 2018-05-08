@@ -29,24 +29,24 @@ $(document).ready(function () {
 
   var categoryArr = [
 
-    {
-      category: "General Tools",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
-      description: "Enter text here",
-    },
-    {
-      category: "Training Material",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
-      description: "Enter text here",
-    },
+    // {
+    //   category: "General Tools",
+    //   image: "../images/generaltools.jpg",
+    //   description: "Enter text here",
+    // },
+    // {
+    //   category: "Training Material",
+    //   image: "../images/generaltools.jpg",
+    //   description: "Enter text here",
+    // },
     {
       category: "CSS",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+      image: "../images/generaltools.jpg",
       description: "Enter text here",
     },
     {
       category: "Testing",
-      image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
+      image: "../images/generaltools.jpg",
       description: "Enter text here",
     },
     {

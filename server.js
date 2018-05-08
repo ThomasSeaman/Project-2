@@ -38,12 +38,17 @@ app.use(express.static("public"));
 require("./routes/api-routes.js")(app);
 require("./routes/html-routes.js")(app);
 
+<<<<<<< HEAD
 // require("./routes/slack.js")(app);
 <<<<<<< HEAD
 // require("./routes/twilio.js")(app);
 =======
 // require("./routes/twilio-routes.js")(app);
 >>>>>>> c97a4b5bf277d24d11fc92e048db41e9bffbf676
+=======
+// require("./routes/slack-routes.js")(app);
+require("./routes/twilio-routes.js")(app);
+>>>>>>> 5a37a95a2f06f4b34402ccc765f94b55210c26a5
 
 
 // Syncing our sequelize models and then starting our Express app
